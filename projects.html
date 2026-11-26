@@ -43,33 +43,77 @@
         <article class="project-card card border-secondary mb-4">
           <div class="card-body p-4">
             <p class="eyebrow text-primary mb-3">University project <span aria-hidden="true">/</span> C</p>
-            <h2 class="h4 card-title">Chained hash table</h2>
-            <p class="card-text mb-0">
-              Implemented a chained hash table to store and retrieve user credentials,
-              with registration, login validation, file loading, collision handling
-              and memory management.
+            <h2 class="h4 card-title">Hash Table User Registry</h2>
+            <p class="card-text">
+              I implemented the core functionality of a user registry in C using a
+              fixed-size hash table with separate chaining. In <code>hash_table.c</code>,
+              I created functions to initialize the table, map user IDs to buckets,
+              search for users, register or update records, validate passwords, free
+              allocated memory, and load users from a file.
             </p>
+            <p class="card-text mb-0">
+              The project uses <strong>C</strong>, the standard library, arrays, structs,
+              linked lists, dynamic memory allocation, and file I/O. One challenge was
+              handling hash collisions by linking multiple users within a bucket. I also
+              developed my skills in managing memory and checking for invalid input and
+              file errors across the hash-table operations.
+            </p>
+            <a class="btn btn-github mt-3" href="https://github.com/boblipk/Hash-Assignment">View on GitHub</a>
           </div>
         </article>
         <article class="project-card card border-secondary mb-4">
           <div class="card-body p-4">
             <p class="eyebrow text-primary mb-3">University project <span aria-hidden="true">/</span> Java</p>
             <h2 class="h4 card-title">Incident dispatch system</h2>
-            <p class="card-text mb-0">
-              Developed a system using linked lists and hash sets to manage, prioritise
-              and process emergency incidents. Features include searching and filtering,
-              queue processing, trend analysis and a console-based interface.
+            <p class="card-text">
+              I developed a Java command-line incident dispatch system that allows users
+              to add, view, process, search, and analyze emergency incidents. The
+              application uses a custom linked-list queue to organize incidents, placing
+              high-priority incidents at the front while preserving the order of
+              low-priority incidents. It also tracks unique incident types and compares
+              today's activity with yesterday's data.
             </p>
+            <p class="card-text">
+              The project was built using Java, Java Collections such as
+              <code>HashSet</code>, <code>Scanner</code> for console input,
+              <code>UUID</code> for unique incident IDs, and <code>Instant</code> for
+              timestamps. I independently designed and implemented the incident model,
+              queue logic, priority handling, search features, trend analysis, input
+              validation, and formatted console output.
+            </p>
+            <p class="card-text mb-0">
+              One of the main challenges was maintaining the correct queue order while
+              ensuring that high-priority incidents were processed first. This project
+              strengthened my skills in Java, object-oriented programming, linked lists,
+              collections, searching and filtering data, input validation, and data
+              structure logic.
+            </p>
+            <a class="btn btn-github mt-3" href="https://github.com/boblipk/Dispatch-system">View on GitHub</a>
           </div>
         </article>
         <article class="project-card card border-secondary">
           <div class="card-body p-4">
-            <p class="eyebrow text-primary mb-3">Team project <span aria-hidden="true">/</span> Bash</p>
-            <h2 class="h4 card-title">Command-line task manager</h2>
-            <p class="card-text mb-0">
-              Collaborated on a Bash task manager, contributing to task-management
-              functionality and working on recurring tasks as the team combined features.
+            <p class="eyebrow text-primary mb-3">Team project <span aria-hidden="true">/</span> Java</p>
+            <h2 class="h4 card-title">Messaging app project</h2>
+            <p class="card-text">
+              I worked with a team to build a Java messaging application. Users can
+              register and log in, create chats, send and interact with messages,
+              manage contacts, and save their data between sessions.
             </p>
+            <p class="card-text">
+              I contributed the chat and message features, including chat viewing and
+              deletion, message sending and deletion, and storing messages in a linked
+              list. The project uses Java and its collections, such as
+              <code>LinkedList</code> and <code>ArrayList</code>, along with file I/O
+              for saving and loading app data.
+            </p>
+            <p class="card-text mb-0">
+              One challenge was keeping chat and message actions organized as features
+              like viewing, editing, and deleting messages came together. Through this
+              work, I developed my skills in object-oriented programming, choosing data
+              structures for application features, and collaborating on a shared project.
+            </p>
+            <a class="btn btn-github mt-3" href="https://github.com/finnkom/chat-project">View on GitHub</a>
           </div>
         </article>
       </section>
